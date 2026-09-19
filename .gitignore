@@ -1,0 +1,70 @@
+# Dependencies
+**/node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+*.dist
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Manus and WebDev internal artifacts
+.manus/
+.manus/checkpoint_zip/
+.webdev/
+.project-config.json
+client/public/__manus__/version.json
+
+# IDE, OS, logs, runtime, and temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+logs/
+*.log
+*debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+*.bak
+tmp/
+temp/
+
+# Coverage, caches, and package artifacts
+coverage/
+*.lcov
+.nyc_output/
+jspm_packages/
+*.tsbuildinfo
+.npm/
+.eslintcache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+*.tgz
+.yarn-integrity
+
+# Local databases and generated archives
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.tar
+*.tar.gz
+SUBMISSION_MANIFEST.txt

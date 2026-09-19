@@ -4,6 +4,7 @@ SafeGuard Bank
 A safety-first banking prototype that helps older adults and digitally inexperienced customers slow down under pressure, understand why a payment may be risky, and involve someone they trust before money leaves the account.
 
 Repository: https://github.com/sandeep200207/SafeGuardBank
+Try the deployed prototype here:https://safeguardban-zyweedqc.manus.space/
 
 Overview
 --------
@@ -127,3 +128,4 @@ Project map
 - `docs/COMPONENT_MAP.md`: screen and component responsibilities.
 - `docs/DEMO_SCRIPT.md`: short presentation script.
 - `docs/TECHNICAL_NOTES.md`: architecture decisions, safety choices, and limitations.
+  
